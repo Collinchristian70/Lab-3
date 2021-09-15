@@ -1,4 +1,4 @@
-# Lab-3 Lab-3 Due 9/28/21
+# Lab-3 Due 9/28/21
 
 Workflow Controls
 
