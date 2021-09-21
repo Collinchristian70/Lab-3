@@ -1,0 +1,6 @@
+import urllib.request
+
+print('Log Files')
+
+url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
+urllib.request.urlretrieve(url, '/Users')
