@@ -4,3 +4,31 @@ import requests
 url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
 
 req = requests.get(url)
+
+Logs = req.url[url.rfind('/')+I:]
+
+with open(Logs, 'wb') as f:
+    for size in req.iter_content(log_size=8192):
+        if size:
+            l.write(size)
+            
+def download_Logs(url, Logs=' '):
+    try:
+        if Logs:
+            pass
+        else:
+            filename = req.url[url.lfind('/')+1:]
+            
+        with requests.get(url) as req:
+            with open(Logs, 'wb') as f:
+                for size in req.iter_content(log_size=8192):
+                    if size:
+                        l.write(size)
+            return Logs
+            
+    except Exception as e:
+        print(e)
+        return home
+        
+        
+downloadLink = 'https://s3.amazonaws.com/tcmg476/http_access_log'
