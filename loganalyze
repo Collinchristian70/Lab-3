@@ -1,0 +1,9 @@
+import csv
+
+f = open('logfile.csv', "r")
+lines = f.readlines()
+date= Oct
+
+for stings in lines:
+    if date in sting:
+        print(string)
