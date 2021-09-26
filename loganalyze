@@ -1,9 +1,15 @@
-import csv
+import datetime
+import re
+#open https log file
+f = open('file.log')
 
-f = open('logfile.csv', "r")
+dates = 
+
 lines = f.readlines()
-date= Oct
+count=0 #set count to 0
+for line in lines:
+    count=count+1
+print(count)
 
-for stings in lines:
-    if date in sting:
-        print(string)
+matches = re.findall(r'(\d\d+/\d\d\d+/\d\d\d\d+)',lines)
+print(matches)
