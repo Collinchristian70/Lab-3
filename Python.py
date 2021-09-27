@@ -26,4 +26,4 @@ september = y.count('Sep/1995')
 #print(september)
 
 sum = april + april2 + may + june + july + august + september
-print('There were ', sum, 'requests made in the past 6 months.')
+print('There were ', sum, 'requests made within the past 6 months.')
