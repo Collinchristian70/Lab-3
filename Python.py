@@ -8,7 +8,7 @@ count = 0
 for line in open('Log_file_download.txt'): count += 1 
 print ('There were ', count, ' requests made in the time period represented by the log.') 
 
-f = open("Log_file_download.txt", "r")
-content = f.read()
-content_list = content.splitlines()
-print (content_list)
+x = open("Log_file_download.txt", "r")
+y = x.read()
+april = y.count('11/Apr/1995')
+print(april)
