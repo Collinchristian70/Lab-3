@@ -1,0 +1,10 @@
+import re
+
+# open the text file and read the data
+file = open('file.log','r')
+
+text = file.read()
+# match a regex pattern for formatted dates
+matches = re.findall(r'(\d\d+/\w\w\w+/\d\d\d\d+)',text)
+
+print(len(matches))
