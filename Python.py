@@ -5,8 +5,9 @@ local_file = 'Log_file_download.txt'
 request.urlretrieve(remote_url, local_file)
 
 count = 0
-for line in open('Log_file_download.txt'): count += 1 
-print ('There were ', count, ' requests made in the time period represented by the log.') 
+for line in open('Log_file_download.txt'): count += 1
+print()
+print('There were', count, 'requests made in the time period represented by the log.')
 
 x = open("Log_file_download.txt", "r")
 y = x.read()
@@ -52,4 +53,9 @@ october9 = y.count('9/Oct/1995')
 october10 = y.count('10/Oct/1995')
 october11 = y.count('11/Oct/1995')
 
+<<<<<<< HEAD
 print('There Were ', april+april2+april3+april4+april5+april6+april7+april8+april9+april10+april11+april12+april13+april14+april15+april16+april17+april18+april19+april20+may+june+july+august+september+october+october2+october3+october4+october5+october6+october7+october8+october9+october10+october11, ' requests within the last 6 months')
+=======
+print()
+print('There were', april+april2+april3+april4+april5+april6+april7+april8+april9+april10+april11+april12+april13+april14+april15+april16+april17+april18+april19+april20+may+june+july+august+september+october+october2+october3+october4+october5+october6+october7+october8+october9+october10+october11, ' requests within the last 6 months')
+>>>>>>> gustavo's
