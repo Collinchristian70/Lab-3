@@ -1,6 +1,7 @@
 from http.client import CONFLICT, EXPECTATION_FAILED, FAILED_DEPENDENCY, FORBIDDEN, GONE, LENGTH_REQUIRED, LOCKED, METHOD_NOT_ALLOWED, NOT_ACCEPTABLE, NOT_FOUND, PAYMENT_REQUIRED, PRECONDITION_FAILED, PROXY_AUTHENTICATION_REQUIRED, REQUEST_HEADER_FIELDS_TOO_LARGE, REQUEST_TIMEOUT, REQUESTED_RANGE_NOT_SATISFIABLE, TOO_MANY_REQUESTS, UNAUTHORIZED, UNPROCESSABLE_ENTITY, UNSUPPORTED_MEDIA_TYPE, UPGRADE_REQUIRED
 from typing import Counter
 from urllib import request
+import re
 remote_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
 local_file = 'Log_file_download.txt'
 request.urlretrieve(remote_url, local_file)
@@ -58,46 +59,18 @@ print('There Were', april+april2+april3+april4+april5+april6+april7+april8+april
 +april15+april16+april17+april18+april19+april20+may+june+july+august+september+october+
 october2+october3+october4+october5+october6+october7+october8+october9+october10+october11,
 'requests within the last 6 months')
+#END OF LAB 2
 
-# Start Question part 3 (4xx status codes)
-a = open("Log_file_download.txt", "r")
-b = a.read()
-
-badrequest = b.count('400')
-UNAUTHORIZED = b.count('401')
-PAYMENT_REQUIRED = b.count('402')
-FORBIDDEN = b.count('403')
-NOT_FOUND = b.count('404')
-METHOD_NOT_ALLOWED = b.count('405')
-NOT_ACCEPTABLE = b.count('406')
-PROXY_AUTHENTICATION_REQUIRED = b.count('407')
-REQUEST_TIMEOUT = b.count('408')
-CONFLICT = b.count('409')
-GONE = b.count('410')
-LENGTH_REQUIRED = b.count('411')
-PRECONDITION_FAILED = b.count('412')
-payloadlarge = b.count('413')
-URItooLong = b.count('414')
-UNSUPPORTED_MEDIA_TYPE = b.count('415')
-REQUESTED_RANGE_NOT_SATISFIABLE = b.count('416')
-EXPECTATION_FAILED = b.count('417')
-teapot = b.count('418')
-misdirected_request = b.count('421')
-UNPROCESSABLE_ENTITY = b.count('422')
-LOCKED = b.count('423')
-FAILED_DEPENDENCY = b.count('424')
-too_early = b.count('425')
-UPGRADE_REQUIRED = b.count('426')
-PRECONDITION_FAILED = b.count('428')
-TOO_MANY_REQUESTS = b.count('429')
-REQUEST_HEADER_FIELDS_TOO_LARGE = b.count('431')
-unavailable_legal = b.count('451')
-
-four_error = (badrequest+UNAUTHORIZED+PAYMENT_REQUIRED+FORBIDDEN+NOT_FOUND+METHOD_NOT_ALLOWED+NOT_ACCEPTABLE+
-PROXY_AUTHENTICATION_REQUIRED+REQUEST_TIMEOUT+CONFLICT+GONE+LENGTH_REQUIRED+PRECONDITION_FAILED+payloadlarge+URItooLong+
-UNSUPPORTED_MEDIA_TYPE+REQUESTED_RANGE_NOT_SATISFIABLE+EXPECTATION_FAILED+teapot+misdirected_request+UNPROCESSABLE_ENTITY+
-LOCKED+FAILED_DEPENDENCY+too_early+UPGRADE_REQUIRED+PRECONDITION_FAILED+TOO_MANY_REQUESTS+REQUEST_HEADER_FIELDS_TOO_LARGE+
-unavailable_legal)
-
-print('There are',four_error,'4xx status codes in the log file')
-# End Question part 3 (4xx status codes)
+# Start Question part 3 and 4 (4xx,3xx status codes)
+textfile = open('Log_file_download.txt', 'r')
+filetext = textfile.read()
+textfile.close()
+matches = re.findall("\" 4\d\d", filetext)
+matches2 = re.findall("\" 3\d\d", filetext)
+list = (len(matches)/total_log)
+list2 = (len(matches2)/total_log)
+rounded_x = format(list, '.3f')
+rounded_y = format(list2, '.3f')
+print("The percentage of 4xx errors is", rounded_x, '%')
+print("The percentage of 3xx errors is", rounded_y, '%')
+# End Question part 3 and 4 (4xx,3xx status codes)
