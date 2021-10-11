@@ -10,24 +10,31 @@ matches = []
 count = []
 total = 0
 
-total = re.findall(r'local',text) + re.findall(r'remote',text)
+lines = file.readlines()
+for line in lines:
+    total=total+1
+
 print('Total logs in file:')
-print(len(total))
+print(total)
 
 while i<32:
     day= str(i)
 
-    if 1<=i<10:
+    if i<10:
         day= '0'+str(i)
         count = (re.findall(r'('+day+r'/\w\w\w/\d\d\d\d)',text))
         print('day', + i)
         print(len(count))
+        avg = int(total)/len(count)
+        print('avg:', + avg)
 
     else:
         day=str(i)
         count = (re.findall(r'('+day+r'/\w\w\w/\d\d\d\d)',text))
         print('day', + i)
         print(len(count))
+        avg = int(total)/len(count)
+        print('avg:', + avg)
 
     if i<10:
         day= '0'+str(i)
