@@ -620,7 +620,7 @@ april26 = y.count('26/Apr/1995')
 print(april26, 'Requests were made on April 26,1995')
 
 april27 = y.count('27/Apr/1995')
-print(april127, 'Requests were made on April 27,1995')
+print(april27, 'Requests were made on April 27,1995')
 
 april28 = y.count('28/Apr/1995')
 print(april28, 'Requests were made on April 28,1995')
@@ -631,28 +631,502 @@ print(april29, 'Requests were made on April 29,1995')
 april30 = y.count('30/Apr/1995')
 print(april30, 'Requests were made on April 30,1995')
 
-may = y.count('May/1995')
+may = y.count('1/May/1995')
+print(may, 'Requests were made in May 1, 1995')
 
-june = y.count('Jun/1995')
+may2 = y.count('2/May/1995')
+print(may2, 'Requests were made in May 2, 1995')
+
+may3 = y.count('3/May/1995')
+print(may3, 'Requests were made in May 3, 1995')
+
+may4 = y.count('4/May/1995')
+print(may4, 'Requests were made in May 4, 1995')
+
+may5 = y.count('5/May/1995')
+print(may5, 'Requests were made in May 5, 1995')
+
+may6 = y.count('6/May/1995')
+print(may6, 'Requests were made in May 6, 1995')
+
+may7 = y.count('7/May/1995')
+print(may7, 'Requests were made in May 7, 1995')
+
+may8 = y.count('8/May/1995')
+print(may8, 'Requests were made in May 8, 1995')
+
+may9 = y.count('9/May/1995')
+print(may9, 'Requests were made in May 9, 1995')
+
+may10 = y.count('10/May/1995')
+print(may10, 'Requests were made in May 10, 1995')
+
+may11 = y.count('11/May/1995')
+print(may11, 'Requests were made in May 11, 1995')
+
+may12 = y.count('12/May/1995')
+print(may12, 'Requests were made in May 12, 1995')
+
+may13 = y.count('13/May/1995')
+print(may13, 'Requests were made in May 13, 1995')
+
+may14 = y.count('14/May/1995')
+print(may14, 'Requests were made in May 14, 1995')
+
+may15 = y.count('15/May/1995')
+print(may15, 'Requests were made in May 15, 1995')
+
+may16 = y.count('16/May/1995')
+print(may16, 'Requests were made in May 16, 1995')
+
+may17 = y.count('17/May/1995')
+print(may17, 'Requests were made in May 17, 1995')
+
+may18 = y.count('18/May/1995')
+print(may18, 'Requests were made in May 18, 1995')
+
+may19 = y.count('19/May/1995')
+print(may19, 'Requests were made in May 19, 1995')
+
+may20 = y.count('20/May/1995')
+print(may20, 'Requests were made in May 20, 1995')
+
+may21 = y.count('21/May/1995')
+print(may21, 'Requests were made in May 21, 1995')
+
+may22 = y.count('22/May/1995')
+print(may22, 'Requests were made in May 22, 1995')
+
+may23 = y.count('23/May/1995')
+print(may23, 'Requests were made in May 23, 1995')
+
+may24 = y.count('24/May/1995')
+print(may24, 'Requests were made in May 24, 1995')
+
+may25 = y.count('25/May/1995')
+print(may25, 'Requests were made in May 25, 1995')
+
+may26 = y.count('26/May/1995')
+print(may26, 'Requests were made in May 26, 1995')
+
+may27 = y.count('27/May/1995')
+print(may27, 'Requests were made in May 27, 1995')
+
+may28 = y.count('28/May/1995')
+print(may28, 'Requests were made in May 28, 1995')
+
+may29 = y.count('29/May/1995')
+print(may29, 'Requests were made in May 29, 1995')
+
+may30 = y.count('30/May/1995')
+print(may30, 'Requests were made in May 30, 1995')
+
+may31 = y.count('31/May/1995')
+print(may31, 'Requests were made in May 31, 1995')
+
+june = y.count('1/Jun/1995')
+print(june, 'Requests were made in June 1, 1995')
+
+june2 = y.count('2/Jun/1995')
+print(june2, 'Requests were made in June 2, 1995')
+
+june3 = y.count('3/Jun/1995')
+print(june3, 'Requests were made in June 3, 1995')
+
+june4 = y.count('4/Jun/1995')
+print(june4, 'Requests were made in June 4, 1995')
+
+june5 = y.count('5/Jun/1995')
+print(june5, 'Requests were made in June 5, 1995')
+
+june6 = y.count('6/Jun/1995')
+print(june6, 'Requests were made in June 6, 1995')
+
+june7 = y.count('7/Jun/1995')
+print(june7, 'Requests were made in June 7, 1995')
+
+june8 = y.count('8/Jun/1995')
+print(june8, 'Requests were made in June 8, 1995')
+
+june9 = y.count('9/Jun/1995')
+print(june9, 'Requests were made in June 9, 1995')
+
+june10 = y.count('10/Jun/1995')
+print(june10, 'Requests were made in June 10, 1995')
+
+june11 = y.count('11/Jun/1995')
+print(june11, 'Requests were made in June 11, 1995')
+
+june12 = y.count('12/Jun/1995')
+print(june12, 'Requests were made in June 12, 1995')
+
+june13 = y.count('13/Jun/1995')
+print(june13, 'Requests were made in June 13, 1995')
+
+june14 = y.count('14/Jun/1995')
+print(june14, 'Requests were made in June 14, 1995')
+
+june15 = y.count('15/Jun/1995')
+print(june15, 'Requests were made in June 15, 1995')
+
+june16 = y.count('16/Jun/1995')
+print(june16, 'Requests were made in June 16, 1995')
+
+june17 = y.count('17/Jun/1995')
+print(june17, 'Requests were made in June 17, 1995')
+
+june18 = y.count('18/Jun/1995')
+print(june18, 'Requests were made in June 18, 1995')
+
+june19 = y.count('19/Jun/1995')
+print(june19, 'Requests were made in June 19, 1995')
+
+june20 = y.count('20/Jun/1995')
+print(june20, 'Requests were made in June 20, 1995')
+
+june21 = y.count('21/Jun/1995')
+print(june21, 'Requests were made in June 21, 1995')
+
+june22 = y.count('22/Jun/1995')
+print(june22, 'Requests were made in June 22, 1995')
+
+june23 = y.count('23/Jun/1995')
+print(june23, 'Requests were made in June 23, 1995')
+
+june24 = y.count('24/Jun/1995')
+print(june24, 'Requests were made in June 24, 1995')
+
+june25 = y.count('25/Jun/1995')
+print(june25, 'Requests were made in June 25, 1995')
+
+june26 = y.count('26/Jun/1995')
+print(june26, 'Requests were made in June 26, 1995')
+
+june27 = y.count('27/Jun/1995')
+print(june27, 'Requests were made in June 27, 1995')
+
+june28 = y.count('28/Jun/1995')
+print(june28, 'Requests were made in June 28, 1995')
+
+june29 = y.count('29/Jun/1995')
+print(june29, 'Requests were made in June 29, 1995')
+
+june30 = y.count('30/Jun/1995')
+print(june30, 'Requests were made in June 30, 1995')
+
 july = y.count('Jul/1995')
-august = y.count('Aug/1995')
-september = y.count('Sep/1995')
-may = y.count('May/1995')
-june = y.count('Jun/1995')
-july = y.count('Jul/1995')
-august = y.count('Aug/1995')
-september = y.count('Sep/1995')
+print(july, 'Requests were made in July 1, 1995')
+
+july = y.count('1/Jul/1995')
+print(july, 'Requests were made in July 1, 1995')
+
+july2 = y.count('2/Jul/1995')
+print(july2, 'Requests were made in July 2, 1995')
+
+july3 = y.count('3/Jul/1995')
+print(july3, 'Requests were made in July 3, 1995')
+
+july4 = y.count('4/Jul/1995')
+print(july4, 'Requests were made in July 4, 1995')
+
+july5 = y.count('5/Jul/1995')
+print(july5, 'Requests were made in July 5, 1995')
+
+july6 = y.count('6/Jul/1995')
+print(july6, 'Requests were made in July 6, 1995')
+
+july7 = y.count('7/Jul/1995')
+print(july7, 'Requests were made in July 7, 1995')
+
+july8 = y.count('8/Jul/1995')
+print(july8, 'Requests were made in July 8, 1995')
+
+july9 = y.count('9/Jul/1995')
+print(july9, 'Requests were made in July 9, 1995')
+
+july10 = y.count('10/Jul/1995')
+print(july10, 'Requests were made in July 10, 1995')
+
+july11 = y.count('11/Jul/1995')
+print(july11, 'Requests were made in July 11, 1995')
+
+july12 = y.count('12/Jul/1995')
+print(july12, 'Requests were made in July 12, 1995')
+
+july13 = y.count('13/Jul/1995')
+print(july13, 'Requests were made in July 13, 1995')
+
+july14 = y.count('14/Jul/1995')
+print(july14, 'Requests were made in July 14, 1995')
+
+july15 = y.count('15/Jul/1995')
+print(july15, 'Requests were made in July 15, 1995')
+
+july16 = y.count('16/Jul/1995')
+print(july16, 'Requests were made in July 16, 1995')
+
+july17 = y.count('17/Jul/1995')
+print(july17, 'Requests were made in July 17, 1995')
+
+july18 = y.count('18/Jul/1995')
+print(july18, 'Requests were made in July 18, 1995')
+
+july19 = y.count('19/Jul/1995')
+print(july19, 'Requests were made in July 19, 1995')
+
+july20 = y.count('20/Jul/1995')
+print(july20, 'Requests were made in July 20, 1995')
+
+july21 = y.count('21/Jul/1995')
+print(july21, 'Requests were made in July 21, 1995')
+
+july22 = y.count('22/Jul/1995')
+print(july22, 'Requests were made in July 22, 1995')
+
+july23 = y.count('23/Jul/1995')
+print(july23, 'Requests were made in July 23, 1995')
+
+july24 = y.count('24/Jul/1995')
+print(july24, 'Requests were made in July 24, 1995')
+
+july25 = y.count('25/Jul/1995')
+print(july25, 'Requests were made in July 25, 1995')
+
+july26 = y.count('26/Jul/1995')
+print(july26, 'Requests were made in July 26, 1995')
+
+july27 = y.count('27/Jul/1995')
+print(july27, 'Requests were made in July 27, 1995')
+
+july28 = y.count('28/Jul/1995')
+print(july28, 'Requests were made in July 28, 1995')
+
+july29 = y.count('29/Jul/1995')
+print(july29, 'Requests were made in July 29, 1995')
+
+july30 = y.count('30/Jul/1995')
+print(july30, 'Requests were made in July 30, 1995')
+
+july31 = y.count('31/Jul/1995')
+print(july31, 'Requests were made in July 31, 1995')
+
+august = y.count('1/Aug/1995')
+print(august, 'Requests were made in August 1, 1995')
+
+august2 = y.count('2/Aug/1995')
+print(august2, 'Requests were made in August 2, 1995')
+
+august3 = y.count('3/Aug/1995')
+print(august3, 'Requests were made in August 3, 1995')
+
+august4 = y.count('4/Aug/1995')
+print(august4, 'Requests were made in August 4, 1995')
+
+august5 = y.count('5/Aug/1995')
+print(august5, 'Requests were made in August 5, 1995')
+
+august6 = y.count('6/Aug/1995')
+print(august6, 'Requests were made in August 6, 1995')
+
+august7 = y.count('7/Aug/1995')
+print(august7, 'Requests were made in August 7, 1995')
+
+august8 = y.count('8/Aug/1995')
+print(august8, 'Requests were made in August 8, 1995')
+
+august9 = y.count('9/Aug/1995')
+print(august9, 'Requests were made in August 9, 1995')
+
+august10 = y.count('10/Aug/1995')
+print(august10, 'Requests were made in August 10, 1995')
+
+august11 = y.count('11/Aug/1995')
+print(august11, 'Requests were made in August 11, 1995')
+
+august12 = y.count('12/Aug/1995')
+print(august12, 'Requests were made in August 12, 1995')
+
+august13 = y.count('13/Aug/1995')
+print(august13, 'Requests were made in August 13, 1995')
+
+august14 = y.count('14/Aug/1995')
+print(august14, 'Requests were made in August 14, 1995')
+
+august15 = y.count('15/Aug/1995')
+print(august15, 'Requests were made in August 15, 1995')
+
+august16 = y.count('16/Aug/1995')
+print(august16, 'Requests were made in August 16, 1995')
+
+august17 = y.count('17/Aug/1995')
+print(august17, 'Requests were made in August 17, 1995')
+
+august18 = y.count('18/Aug/1995')
+print(august18, 'Requests were made in August 18, 1995')
+
+august19 = y.count('19/Aug/1995')
+print(august19, 'Requests were made in August 19, 1995')
+
+august20 = y.count('20/Aug/1995')
+print(august20, 'Requests were made in August 20, 1995')
+
+august21 = y.count('21/Aug/1995')
+print(august21, 'Requests were made in August 21, 1995')
+
+august22 = y.count('22/Aug/1995')
+print(august22, 'Requests were made in August 22, 1995')
+
+august23 = y.count('23/Aug/1995')
+print(august23, 'Requests were made in August 23, 1995')
+
+august24 = y.count('24/Aug/1995')
+print(august24, 'Requests were made in August 24, 1995')
+
+august25 = y.count('25/Aug/1995')
+print(august25, 'Requests were made in August 25, 1995')
+
+august26 = y.count('26/Aug/1995')
+print(august26, 'Requests were made in August 26, 1995')
+
+august27 = y.count('27/Aug/1995')
+print(august27, 'Requests were made in August 27, 1995')
+
+august28 = y.count('28/Aug/1995')
+print(august28, 'Requests were made in August 28, 1995')
+
+august29 = y.count('29/Aug/1995')
+print(august29, 'Requests were made in August 29, 1995')
+
+august30 = y.count('30/Aug/1995')
+print(august30, 'Requests were made in August 30, 1995')
+
+august31 = y.count('31/Aug/1995')
+print(august31, 'Requests were made in August 31, 1995')
+
+september = y.count('1/Sep/1995')
+print(september, 'Requests were made in September 1, 1995')
+
+september2 = y.count('2/Sep/1995')
+print(september2, 'Requests were made in September 2, 1995')
+
+september3 = y.count('3/Sep/1995')
+print(september3, 'Requests were made in September 3, 1995')
+
+september4 = y.count('4/Sep/1995')
+print(september4, 'Requests were made in September 4, 1995')
+
+september5 = y.count('5/Sep/1995')
+print(september5, 'Requests were made in September 5, 1995')
+
+september6 = y.count('6/Sep/1995')
+print(september6, 'Requests were made in September 6, 1995')
+
+september7 = y.count('7/Sep/1995')
+print(september7, 'Requests were made in September 7, 1995')
+
+september8 = y.count('8/Sep/1995')
+print(september8, 'Requests were made in September 8, 1995')
+
+september9 = y.count('9/Sep/1995')
+print(september9, 'Requests were made in September 9, 1995')
+
+september10 = y.count('10/Sep/1995')
+print(september10, 'Requests were made in September 10, 1995')
+
+september11 = y.count('11/Sep/1995')
+print(september11, 'Requests were made in September 11, 1995')
+
+september12 = y.count('12/Sep/1995')
+print(september12, 'Requests were made in September 12, 1995')
+
+september13 = y.count('13/Sep/1995')
+print(september13, 'Requests were made in September 13, 1995')
+
+september14 = y.count('14/Sep/1995')
+print(september14, 'Requests were made in September 14, 1995')
+
+september15 = y.count('15/Sep/1995')
+print(september15, 'Requests were made in September 15, 1995')
+
+september16 = y.count('16/Sep/1995')
+print(september16, 'Requests were made in September 16, 1995')
+
+september17 = y.count('17/Sep/1995')
+print(september17, 'Requests were made in September 17, 1995')
+
+september18 = y.count('18/Sep/1995')
+print(september18, 'Requests were made in September 18, 1995')
+
+september19 = y.count('19/Sep/1995')
+print(september19, 'Requests were made in September 19, 1995')
+
+september20 = y.count('20/Sep/1995')
+print(september20, 'Requests were made in September 20, 1995')
+
+september21 = y.count('21/Sep/1995')
+print(september21, 'Requests were made in September 21, 1995')
+
+september22 = y.count('22/Sep/1995')
+print(september22, 'Requests were made in September 22, 1995')
+
+september23 = y.count('23/Sep/1995')
+print(september23, 'Requests were made in September 23, 1995')
+
+september24 = y.count('24/Sep/1995')
+print(september24, 'Requests were made in September 24, 1995')
+
+september25 = y.count('25/Sep/1995')
+print(september25, 'Requests were made in September 25, 1995')
+
+september26 = y.count('26/Sep/1995')
+print(september26, 'Requests were made in September 26, 1995')
+
+september27 = y.count('27/Sep/1995')
+print(september27, 'Requests were made in September 27, 1995')
+
+september28 = y.count('28/Sep/1995')
+print(september28, 'Requests were made in September 28, 1995')
+
+september29 = y.count('29/Sep/1995')
+print(september29, 'Requests were made in September 29, 1995')
+
+september30 = y.count('30/Sep/1995')
+print(september30, 'Requests were made in September 30, 1995')
+
 october = y.count('1/Oct/1995')
+print(october, 'Requests were made in October 1, 1995')
+
 october2 = y.count('2/Oct/1995')
+print(october2, 'Requests were made in October 2, 1995')
+
 october3 = y.count('3/Oct/1995')
+print(october3, 'Requests were made in October 3, 1995')
+
 october4 = y.count('4/Oct/1995')
+print(october4, 'Requests were made in October 4, 1995')
+
 october5 = y.count('5/Oct/1995')
+print(october5, 'Requests were made in October 5, 1995')
+
 october6 = y.count('6/Oct/1995')
+print(october6, 'Requests were made in October 6, 1995')
+
 october7 = y.count('7/Oct/1995')
+print(october7, 'Requests were made in October 7, 1995')
+
 october8 = y.count('8/Oct/1995')
+print(october8, 'Requests were made in October 8, 1995')
+
 october9 = y.count('9/Oct/1995')
+print(october9, 'Requests were made in October 9, 1995')
+
 october10 = y.count('10/Oct/1995')
+print(october10, 'Requests were made in October 10, 1995')
+
 october11 = y.count('11/Oct/1995')
+print(october11, 'Requests were made in October 11, 1995')
+
+#END of question/part 1
 
 # Start Question part 3 and 4 (4xx,3xx status codes)
 textfile = open('Log_file_download.txt', 'r')
