@@ -60,7 +60,7 @@ print('There Were', april_1+april_2+april_3+april_4+april_5+april_6+april_7+apri
 october02+october03+october04+october05+october06+october07+october08+october09+october010+october011,
 'requests within the last 6 months')
 #END OF LAB 2
-
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 #START of Question 1
 x = open("Log_file_download.txt", "r")
 y = x.read()
@@ -1129,6 +1129,7 @@ print(october11, 'Requests were made in October 11, 1995')
 #END of question/part 1
 
 # Start Question part 3 and 4 (4xx,3xx status codes)
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 textfile = open('Log_file_download.txt', 'r')
 filetext = textfile.read()
 textfile.close()
@@ -1141,3 +1142,126 @@ rounded_y = format(list2, '.3f')
 print("The percentage of 4xx errors is", rounded_x, '%')
 print("The percentage of 3xx errors is", rounded_y, '%')
 # End Question part 3 and 4 (4xx,3xx status codes)
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+#start of questions 5 and 6
+textfile = open('Log_file_download.txt', 'r')
+filetext = textfile.read()
+textfile.close()
+
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".jpeg")
+print('Number of .jpeg files: ', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".html")
+print('Number of .html files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".rgb")
+print('Number of .rgb files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".gif")
+print('Number of .gif files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".xbm")
+print('Number of .xbm files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".qt")
+print('Number of .qt files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".ps")
+print('Number of .ps files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".louise")
+print('Number of .louise files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".mpg")
+print('Number of .mpg files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".shar")
+print('Number of .shar files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".map")
+print('Number of .map files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".txt")
+print('Number of .txt files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".jpg")
+print('Number of .jpg files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".www")
+print('Number of .www files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".edu")
+print('Number of .edu files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".exe")
+print('Number of .exe files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".eps")
+print('Number of .eps files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".pdf")
+print('Number of .pdf files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".example")
+print('Number of .example files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".exams")
+print('Number of .exams files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".el")
+print('Number of .el files:', occurences)
+
+file = open ('Log_file_download.txt', 'r')
+data = file.read ()
+occurences = data.count(".ef")
+print('Number of .ef files:', occurences)
+
+print('')
+print('')
+print('The most requested file type was .html')
+print('The least requested file type was .ef')
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+#end of questions 5 and 6
