@@ -2,9 +2,13 @@ from http.client import CONFLICT, EXPECTATION_FAILED, FAILED_DEPENDENCY, FORBIDD
 from typing import Counter
 from urllib import request
 import re
-remote_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
+import os.path
+
 local_file = 'Log_file_download.txt'
-request.urlretrieve(remote_url, local_file)
+remote_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
+
+if not os.path.isfile(local_file):
+    request.urlretrieve(remote_url, local_file)
 
 total_log = 0
 for line in open('Log_file_download.txt'): total_log += 1
