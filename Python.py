@@ -1128,6 +1128,139 @@ print(october11, 'Requests were made in October 11, 1995')
 
 #END of question/part 1
 
+#Start of question 2
+print('There Were', october_1+october_2+october_3+october_4+october_5+october_6+october_7, 'requests made week 1, starting on October 24th 1994')
+
+print('There Were', october_8+november+november2+november3+november4+november5+november6, 'requests made week 2')
+
+print('There Were', november7+november8+november9+november10+november11+november12+november13, 'requests made week 3')
+
+print('There Were', november14+november15+november16+november17+november18+november19+november20, 'requests made week 4')
+
+print('There Were', november21+november22+november23+november24+november25+november26+november27, 'requests made week 5')
+
+print('There Were', november28+november29+november30+december+december2+december3+december4, 'requests made week 6')
+
+print('There Were', december5+december6+december7+december8+december9+december10+december11, 'requests made week 7')
+
+print('There Were', december12+december13+december14+december15+december16+december17+december18, 'requests made week 8')
+
+print('There Were', december19+december20+december21+december22+december23+december24+december25, 'requests made week 9')
+
+print('There Were', december26+december27+december28+december29+december30+december31+january, 'requests made week 10')
+
+print('There Were', january2+january3+january4+january5+january6+january7+january8, 'requests made week 11')
+
+print('There Were', january9+january10+january11+january12+january13+january14+january15, 'requests made week 12')
+
+print('There Were', january16+january17+january18+january19+january20+january21+january22, 'requests made week 13')
+
+print('There Were', january23+january24+january25+january26+january27+january28+january29, 'requests made week 14')
+
+print('There Were', january30+january31+feb+feb2+feb3+feb4+feb5, 'requests made week 15')
+
+print('There Were', feb6+feb7+feb8+feb9+feb10+feb11+feb12, 'requests made week 16')
+
+print('There Were', feb13+feb14+feb15+feb16+feb17+feb18+feb19, 'requests made week 17')
+
+print('There Were', feb20+feb21+feb22+feb23+feb24+feb25+feb26, 'requests made week 18')
+
+print('There Were', feb27+feb28+march+march2+march3+march4+march5, 'requests made week 19')
+
+print('There Were', march6+march7+march8+march9+march10+march11+march12, 'requests made week 20')
+
+print('There Were', march13+march14+march15+march16+march17+march18+march19, 'requests made week 21')
+
+print('There Were', march20+march21+march22+march23+march24+march25+march26, 'requests made week 22')
+
+print('There Were', march27+march28+march29+march30+march31+april1+april2, 'requests made week 23')
+
+print('There Were', april3+april4+april5+april6+april7+april8+april9, 'requests made week 24')
+
+print('There Were', april10+april11+april12+april13+april14+april15+april16, 'requests made week 25')
+
+print('There Were', april17+april18+april19+april20+april21+april22+april23, 'requests made week 26')
+
+print('There Were', april24+april25+april26+april27+april28+april29+april30, 'requests made week 27')
+
+print('There Were', may+may2+may3+may4+may5+may6+may7, 'requests made week 28')
+
+print('There Were', may8+may9+may10+may11+may12+may13+may14, 'requests made week 29')
+
+print('There Were', may15+may16+may17+may18+may19+may20+may21, 'requests made week 30')
+
+print('There Were', may22+may23+may24+may25+may26+may27+may28, 'requests made week 31')
+
+print('There Were', may29+may30+may31+june+june2+june3+june4, 'requests made week 32')
+
+print('There Were', june5+june6+june7+june8+june9+june10+june11, 'requests made week 33')
+
+print('There Were', june12+june13+june14+june15+june16+june17+june18, 'requests made week 34')
+
+print('There Were', june19+june20+june21+june22+june23+june24+june25, 'requests made week 35')
+
+print('There Were', june26+june27+june28+june29+june30+july+july2, 'requests made week 36')
+
+print('There Were', july3+july4+july5+july6+july7+july8+july9, 'requests made week 37')
+
+print('There Were', july10+july11+july12+july13+july14+july15+july16, 'requests made week 38')
+
+print('There Were', july17+july18+july19+july20+july21+july22+july23, 'requests made week 39')
+
+print('There Were', july24+july25+july26+july27+july28+july29+july30, 'requests made week 40')
+
+print('There Were', july31+august+august2+august3+august4+august5+august6, 'requests made week 41')
+
+print('There Were', august7+august8+august9+august10+august11+august12+august13, 'requests made week 42')
+
+print('There Were', august14+august15+august16+august17+august18+august19+august20, 'requests made week 43')
+
+print('There Were', august21+august22+august23+august24+august25+august26+august27, 'requests made week 44')
+
+print('There Were', august28+august29+august30+august31+september+september2+september3, 'requests made week 45')
+
+print('There Were', september4+september5+september6+september7+september8+september9+september10, 'requests made week 46')
+
+print('There Were', september11+september12+september13+september14+september15+september16+september17, 'requests made week 47')
+
+print('There Were', september18+september19+september20+september21+september22+september23+september24, 'requests made week 48')
+
+print('There Were', september25+september26+september27+september28+september29+september30+october, 'requests made week 49')
+
+print('There Were', october2+october3+october4+october6+october7+october8+october9, 'requests made week 50')
+
+print('There were', october10+october11, 'requests made week 51')
+
+#question 2 part 2 
+
+print('There were', october_1+october_2+october_3+october_4+october_5+october_6+october_7+october_8, 'resuqest made in October 1994')
+
+print('There were', november+november2+november3+november4+november5+november6+november7+november8+november9+november10+november11+november12+november13+november14+november15+november16+november17+november18+november19+november20+november21+november22+november23+november24+november25+november26+november27+november28+november29+november30, 'resuqest made in November 1994')
+
+print('There were', december+december2+december3+december4+december5+december6+december7+december8+december9+december10+december11+december12+december13+december14+december15+december16+december17+december18+december19+december20+december21+december22+december23+december24+december25+december26+december27+december28+december29+december30+december31, 'resuqest made in December 1994')
+
+print('There were', january+january2+january3+january4+january5+january6+january7+january8+january9+january10+january11+january12+january13+january14+january15+january16+january17+january18+january19+january20+january21+january22+january23+january24+january25+january26+january27+january28+january29+january30+january31, 'resuqest made in January 1995')
+
+print('There were', feb+feb2+feb3+feb4+feb5+feb6+feb7+feb8+feb9+feb10+feb11+feb12+feb13+feb14+feb15+feb16+feb17+feb18+feb19+feb20+feb21+feb22+feb23+feb24+feb25+feb26+feb27+feb28, 'resuqest made in Febuary 1995')
+
+print('There were', march+march2+march3+march4+march5+march6+march7+march8+march9+march10+march11+march12+march13+march14+march15+march16+march17+march18+march19+march20+march21+march22+march23+march24+march25+march26+march27+march28+march29+march30+march31, 'resuqest made in March 1995')
+
+print('There were', april1+april2+april3+april4+april5+april6+april7+april8+april9+april10+april11+april12+april13+april14+april15+april16+april17+april18+april19+april20+april21+april22+april23+april24+april25+april26+april27+april28+april29+april30, 'resuqest made in April 1995')
+
+print('There were', may+may2+may3+may4+may5+may6+may7+may8+may9+may10+may11+may12+may13+may14+may15+may16+may17+may18+may19+may20+may21+may22+may23+may24+may25+may26+may27+may28+may29+may30+may31, 'resuqest made in May 1995')
+
+print('There were', june+june2+june3+june4+june5+june6+june7+june8+june9+june10+june11+june12+june13+june14+june15+june16+june17+june18+june19+june20+june21+june22+june23+june24+june25+june26+june27+june28+june29+june30, 'resuqest made in June 1995')
+
+print('There were', july+july2+july3+july4+july5+july6+july7+july8+july9+july10+july11+july12+july13+july14+july15+july16+july17+july18+july19+july20+july21+july22+july23+july24+july25+july26+july27+july28+july29+july30+july31, 'resuqest made in July 1995')
+
+print('There were', august+august2+august3+august4+august5+august6+august7+august8+august9+august10+august11+august12+august13+august14+august15+august16+august17+august18+august19+august20+august21+august22+august23+august24+august25+august26+august27+august28+august29+august30+august31, 'resuqest made in August 1995')
+
+print('There were', september+september2+september3+september4+september5+september6+september7+september8+september9+september10+september11+september12+september13+september14+september15+september16+september17+september18+september19+september20+september21+september22+september23+september24+september25+september26+september27+september28+september29+september30, 'resuqest made in September 1995')
+
+print('There were', october+october2+october3+october4+october6+october7+october8+october9+october10+october11, 'resuqest made in October 1995')
+
+#END of question 2 
+
 # Start Question part 3 and 4 (4xx,3xx status codes)
 print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 textfile = open('Log_file_download.txt', 'r')
