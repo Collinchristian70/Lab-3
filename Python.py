@@ -1127,7 +1127,7 @@ october11 = y.count('11/Oct/1995')
 print(october11, 'Requests were made in October 11, 1995')
 
 #END of question/part 1
-
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 #Start of question 2
 print('There Were', october_1+october_2+october_3+october_4+october_5+october_6+october_7, 'requests made week 1, starting on October 24th 1994')
 
