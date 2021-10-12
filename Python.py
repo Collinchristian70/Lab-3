@@ -542,7 +542,7 @@ march31 = y.count('31/Mar/1995')
 print(march31, 'Requests were made on March 31, 1995')
 
 april1 = y.count('1/Apr/1995')
-print(april, 'Requests were made on April 1, 1995')
+print(april1, 'Requests were made on April 1, 1995')
 
 april2 = y.count('2/Apr/1995')
 print(april2, 'Requests were made on April 2, 1995')
