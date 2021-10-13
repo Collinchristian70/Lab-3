@@ -1,12 +1,11 @@
+from urllib import request
 import re
 
-# open the text file and read the data
-file = open('file.log','r')
+remote_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
+local_file = 'Log_file_download.txt'
+request.urlretrieve(remote_url, local_file)
+file = open('Log_file_download.txt', 'r')
 text = file.read()
-m=[]
-count=0 #set count to 0
-avg=0
-total=0
 
 total = re.findall(r'local',text) + re.findall(r'remote',text)
 print("total request")
