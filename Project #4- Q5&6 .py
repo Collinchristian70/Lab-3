@@ -1,6 +1,12 @@
 import collections
 
-logfile = open("file.log", "r")
+from urllib import request
+import re
+
+remote_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
+local_file = 'Log_file_download.txt'
+request.urlretrieve(remote_url, local_file)
+logfile = open('Log_file_download.txt', 'r')
 
 clean_log=[]
 
